@@ -2,14 +2,18 @@
 
 /* Estructura general y contenedores */
 #main-container {}
-.hero-section {}
+.hero-section {
+    background-image: url("../images/1.webp");
+}
 .hero-content-1 {
     transform: translate(0px, -200px);
 
 }
 .mensaje-section {}
 .mensaje-recuadro {}
-.aparta-fecha {}
+.aparta-fecha {
+    background-image: url("../images/2.webp"); 
+}
 .contenido-aparta {}
 .cuando-donde {}
 .evento {}
@@ -18,9 +22,13 @@
 .columna {}
 .foto {}
 .detalles {}
-.frase1 {}
+.frase1 {
+    background-image: url("../images/3.webp");
+}
 .frase-content {}
-.frase2 {}
+.frase2 {
+    background-image: url("../images/4.webp");
+}
 .frase2-content {}
 .contenedor-itinerario {}
 .tabla-itinerario {}
@@ -42,7 +50,20 @@
 
 /* Modal de bienvenida */
 .modal {}
-.modal-content {}
+.modal-content {
+    position: relative;
+    background-image: url("../images/fondoventana.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-content::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
 .modal-text-1 {
     align-content: center;
     text-align: center;
