@@ -1,0 +1,10 @@
+IMPORTANTE: REEMPLAZAR ARCHIVO DE MÚSICA
+
+El archivo "Musica.mp3" que venía en la carpeta original NO es un archivo de música válido. Contiene un mensaje de error de texto, por lo que el navegador no puede reproducirlo.
+
+Para que la música de fondo funcione:
+1. Elimina el archivo "Musica.mp3" actual.
+2. Copia tu propia canción en formato MP3 a esta carpeta.
+3. Renombra tu archivo de canción a "Musica.mp3" (asegúrate de que el nombre sea exacto, con la M mayúscula).
+
+Una vez hecho esto, recarga la página y la música debería funcionar correctamente al hacer clic en "MIRA AQUÍ".

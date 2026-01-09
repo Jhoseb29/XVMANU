@@ -1,0 +1,125 @@
+/* Archivo de estilos personalizados - Completa las reglas según necesites */
+
+/* Estructura general y contenedores */
+#main-container {}
+.hero-section {}
+.hero-content-1 {
+    transform: translate(0px, -200px);
+
+}
+.mensaje-section {}
+.mensaje-recuadro {}
+.aparta-fecha {}
+.contenido-aparta {}
+.cuando-donde {}
+.evento {}
+.misa {}
+.fiesta {}
+.columna {}
+.foto {}
+.detalles {}
+.frase1 {}
+.frase-content {}
+.frase2 {}
+.frase2-content {}
+.contenedor-itinerario {}
+.tabla-itinerario {}
+.galeria {}
+.slider-container {}
+.slider {}
+.slide {
+    display: none;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+.slide.active {
+    display: block;
+    opacity: 1;
+}
+.pase-recepcion {}
+.pase-contenedor {}
+.renglones-adicionales {}
+
+/* Modal de bienvenida */
+.modal {}
+.modal-content {}
+.modal-text-1 {
+    align-content: center;
+    text-align: center;
+    margin-top: -280px;
+}
+.modal-adicional {
+    transform: translate(0px, 70px);
+}
+.parrafo {
+    transform: translate(0px, 70px);
+} 
+.btn {
+    transform: translate(0px, 70px);
+}
+
+/* Textos y tipografía */
+.announcement {}
+.announcementpeq {}
+.announcementpeqcolor {}
+.announcementclaro {}
+.announcementclaropad {}
+.texto-invitacion {}
+.greeting {}
+.texto-detalles {}
+.hora {}
+.actividad {}
+.horario {}
+.contenido1-frase1 {}
+.contenido2-frase1 {}
+.contenido1-frase2 {}
+.contenido2-frase2 {}
+.contenido3-frase2 {}
+.cantpases {}
+
+/* Elementos decorativos e imágenes */
+.latizquierda {}
+.latderecha {}
+.division {}
+.icono-itinerario {}
+.pase-imagen {}
+
+/* Espaciadores y alineación */
+.esppeq {}
+.espmed {}
+.espadicional {}
+.centrar-contenido {}
+.centrar-contenido2 {}
+.centrar-contenido3 {}
+
+/* Cuenta regresiva */
+.datenew {}
+.date-column {}
+.number {}
+.month {}
+.year {}
+.countdown-container {}
+.countdown-item {}
+.countdown-value {}
+.countdown-label {}
+
+/* Botones y enlaces */
+.location-container {}
+.location-button {}
+.arrow {}
+.left {}
+.right {}
+.music-button {}
+
+/* Animaciones y estados */
+.paused {}
+.anim-right {}
+.anim-left {}
+.anim-up {}
+.anim-down {}
+.anim-pause-1 {}
+.anim-pause-15 {}
+.anim-pause-2 {}
+.anim-pause-25 {}
+.anim-pause-3 {}
+.anim-pause-35 {}
